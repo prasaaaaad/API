@@ -1,35 +1,8 @@
 {
-  "Post": {
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    },
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "tag": {
-      "string": [
-        "one",
-        "two",
-        "three"
-      ]
-    },
-    "isDraft": {
-      "boolean": {}
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
+    "statusCode": 200,
+    "body": "{\"spans\": [{\"start\": 0, \"end\": 3, \"type\": \"PERSON\"}, {\"start\": 11, \"end\": 14, \"type\": \"CARDINAL\"}, {\"start\": 25, \"end\": 35, \"type\": \"ORG\"}, {\"start\": 39, \"end\": 43, \"type\": \"DATE\"}]}",
+    "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*"
     }
-  }
 }
